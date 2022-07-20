@@ -133,3 +133,86 @@ body {
 
 
 /* <!-- Header/Bannar Section End --> */
+
+
+
+
+
+
+/* media querry tablet*/
+
+@media screen and (min-width:568px) and (max-width:992px) {
+    .special-btn {
+        display: block;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        font-family: HelveticaNeue;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 40px;
+
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .mobile-icon {
+        display: flex;
+        justify-content: space-evenly;
+        width: 20%;
+    }
+
+    .mobile-icon .fa-brands {
+        font-size: 25px;
+    }
+
+    /* <!-- Header/Bannar Section start --> */
+
+    .header {
+        height: 398px;
+        width: 734px;
+        background: #161616;
+        border-radius: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        color: white;
+        place-items: center;
+    }
+
+    .header-text {
+        height: 276px;
+        width: 316px;
+
+    }
+
+    .header-text h1 {
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: left;
+
+
+    }
+
+    .header-text p {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        margin-top: 20px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+
+    }
+
+    .header-img {
+        height: 340px;
+        width: 323px;
+    }
+
+    /* <!-- Header/Bannar Section End --> */
