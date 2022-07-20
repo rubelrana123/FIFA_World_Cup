@@ -1,0 +1,183 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* basic css */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+a{
+  border: 1px solid;
+  text-decoration: none;
+}
+
+
+
+/* headder */
+header{
+  width: 90vw;
+  margin: 0 auto;
+  color: beige;
+  background: #161616;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+.top-banner{
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  
+}
+.banner-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 111px 24px 100px 111px;
+  
+}
+.banner-text .banner-title {
+ 
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  
+}
+.banner-text .banner-details {
+ 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+
+}
+.banner-text a {
+    width: 187px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    
+    
+   
+
+
+}
+.banner-text .fa-greater-than{
+  margin-left: 10px;
+  font-size: 20px;
+ 
+
+
+}
+.banner-text .banner-link {
+   background: #DD0000;
+   border-radius: 5px;
+   margin-top: 30px;
+
+}
+.banner-image {
+ width: 50%;
+ padding: 30px 75px 0px 10px;
+
+
+}
+.banner-image img{
+  width: 100%;
+  height: 100%;
+  /* margin-top: 100px; */
+}
+
+
+
+
+@media screen and (min-width:568px) and (max-width:1024px) {
+  
+  body{
+    background-color: blueviolet;
+  }
+  header{
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .top-banner{
+    margin-top: 30px;
+  }
+  .banner-text .banner-title{
+    font-family: Poppins;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 50px;
+
+  }
+  .banner-text .banner-details{
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: left;
+
+
+  }
+}
+
+
+/* media querry mobile start*/
+@media only screen and (max-width: 570px) {
+  body{
+    background-color: chartreuse;
+  }
+  .top-banner{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 20px 20px 0px 20px;
+  }
+  .banner-text a{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+     /* width: 100% */
+    
+  }
+  .top-banner .banner-text .banner-title{
+   
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+   
+
+  }
+  .top-banner .banner-text .banner-details{
+   
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+
+
+  }
+  .banner-image {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    /* width: 60%; */
+  } 
+
+}
