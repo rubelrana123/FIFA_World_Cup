@@ -125,7 +125,7 @@ body {
 }
 
 .header-img img {
-    width: 100%;
+    width: 103%;
 }
 
 
@@ -348,6 +348,9 @@ body {
         height: 340px;
         width: 323px;
     }
+    .header-img img {
+    width: 108.5%;
+}
 
     /* <!-- Header/Bannar Section End --> */
 
@@ -453,9 +456,9 @@ body {
         width: 233px;
     }
 
-    .header-img img {
-        width: 100%;
-    }
+.header-img img {
+    width: 100%;
+}
 
     /* <!-- upcoming match Section start --> */
     .sec-1 {
@@ -504,10 +507,8 @@ body {
         font-size: 20px;
         font-weight: 400;
         margin-top: 40px;
-
     }
     
-
     /* footer section start */
     .footer {
         width: 100%;
@@ -553,7 +554,6 @@ body {
         font-size: 16px;
         font-weight: 500;
         color: rgba(185, 185, 185, 1);
-
     }
 
     .mobile-icon {
@@ -570,7 +570,5 @@ body {
     }
 
     /* footer section end */
-
-
 
 }

@@ -124,7 +124,7 @@ body {
 }
 
 .header-img img {
-    width: 100%;
+    width: 103%;
 }
 
 
@@ -385,12 +385,6 @@ body {
 
 /* <!-- footer Section end --> */
 
-
-
-
-
-
-
 /* media querry tablet*/
 
 @media screen and (min-width:568px) and (max-width:992px) {
@@ -443,8 +437,6 @@ body {
         font-weight: 700;
         line-height: 50px;
         text-align: left;
-
-
     }
 
     .header-text p {
@@ -463,6 +455,11 @@ body {
         height: 340px;
         width: 323px;
         
+    }
+    .header-img img{
+      width: 108.5%;
+      
+
     }
  
 
@@ -508,6 +505,7 @@ body {
     .sec-1 .hidden-item{
       display: none;
     }
+     /* blog section end */
         /* footer */
     .footer ul li {
         padding-left: 20px;
@@ -574,7 +572,7 @@ body {
     .mobile-icon .fa-brands {
         font-size: 30px;
     }
-    /* blog section end */
+   
 
     /* footer section end */
 
