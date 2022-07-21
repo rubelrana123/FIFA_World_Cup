@@ -325,6 +325,46 @@ body {
 
     /* <!-- Header/Bannar Section End --> */
 
+     /* <!-- upcoming match Section start --> */
+    .sec-1 {
+        width: 100%;
+        margin: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sec-1-div-1 {
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 48px;
+        height: auto;
+        width: auto;
+        background: white;
+        text-align: center;
+        align-items: center;
+    }
+
+    .sec-1-div-1 a {
+        text-decoration: none;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+
+    .sec-1-div-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 87px;
+        row-gap: 30px;
+        margin-top: 20px;
+    }
+
+
 
 
 
@@ -394,5 +434,7 @@ body {
         width: 100%;
     }
 
+
+    
 
 }
