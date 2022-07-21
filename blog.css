@@ -15,7 +15,6 @@ body {
 
 .btn {
     border: none;
-    font-family: 'Oswald', sans-serif;
     padding: 17px 38px;
     border-radius: 10px;
     background-color: white;
@@ -64,11 +63,10 @@ body {
 }
 
 .header-text h1 {
-    font-family: 'Oswald', sans-serif;
     font-size: 70px;
     font-weight: 700;
     line-height: 80px;
-    text-align: left;
+    /* text-align: left; */
 
 }
 
@@ -149,13 +147,12 @@ body {
     padding: 0px 30px;
     height: 312px;
     width: 312px;
-    border-radius: 10px;
+    border-radius: 12px;
     background: rgba(22, 22, 22, 1);
 
 }
 
 .sec-1-div-1 a {
-    font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -212,7 +209,6 @@ body {
 }
 
 .sec-1-card h4 {
-    font-family: Poppins;
     font-size: 18px;
     font-weight: bold;
     text-align: left;
@@ -411,7 +407,6 @@ body {
         text-decoration: none;
         background-color: red;
         color: white;
-        font-family: HelveticaNeue;
         font-size: 20px;
         font-weight: 400;
         margin-top: 40px;
@@ -452,7 +447,6 @@ body {
     }
 
     .header-text h1 {
-        font-family: Poppins;
         font-size: 40px;
         font-weight: 700;
         line-height: 50px;
@@ -462,7 +456,6 @@ body {
     }
 
     .header-text p {
-        font-family: Poppins;
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
@@ -482,7 +475,7 @@ body {
 
     /* <!-- Header/Bannar Section End --> */
 
-     /* <!-- upcoming match Section start --> */
+     /* <!-- blog Section start --> */
     .sec-1 {
         width: 100%;
         margin: 60px 0px;
@@ -588,6 +581,7 @@ body {
     .mobile-icon .fa-brands {
         font-size: 30px;
     }
+    /* blog section end */
 
     /* footer section end */
 
@@ -689,7 +683,7 @@ body {
 
     .sec-1-div-1 a {
         text-decoration: none;
-        font-family: Poppins;
+        width: 100%;
         font-size: 14px;
         font-weight: 700;
         margin-top: 10px;
@@ -740,13 +734,14 @@ body {
     .footer ul li {
         list-style: none;
         padding-left: 0px;
+       
 
 
     }
 
     .footer a {
         text-decoration: none;
-        font-family: Poppins;
+        
         font-size: 16px;
         font-weight: 500;
         color: rgba(185, 185, 185, 1);
