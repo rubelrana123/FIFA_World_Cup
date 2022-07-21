@@ -71,7 +71,6 @@ body {
 }
 
 .header-text p {
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -81,7 +80,6 @@ body {
 }
 
 .header-btn {
-    font-family: HelveticaNeue;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -93,16 +91,16 @@ body {
     cursor: pointer;
     margin-top: 30px;
     color: white;
-    animation: headerbtn 4s linear infinite;
+    animation: bannerbtn 4s linear infinite;
     transition: 4s ease-in-out;
 
 
 }
 
-@keyframes headerbtn {
+@keyframes bannerbtn {
     0% {
         background-color: wheat;
-        color: #161616;
+        color: #ac3838;
     }
 
     50% {
@@ -196,7 +194,6 @@ body {
 
 .sec-1-card button {
     padding: 4px 16px;
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     border: none;
@@ -259,7 +256,6 @@ body {
 }
 
 .sec-1-div-1 a {
-    font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -303,7 +299,6 @@ body {
 
 .sec-1-card button {
     padding: 4px 16px;
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     border: none;
@@ -316,7 +311,6 @@ body {
 }
 
 .sec-1-card h4 {
-    font-family: Poppins;
     font-size: 18px;
     font-weight: bold;
     text-align: left;
@@ -363,7 +357,6 @@ body {
 }
 
 .footer h1 {
-    font-family: Poppins;
     font-size: 40px;
     font-weight: 600;
     color: rgba(185, 185, 185, 1);
@@ -384,7 +377,6 @@ body {
 
 .footer a {
     text-decoration: none;
-    font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
     color: rgba(185, 185, 185, 1);
@@ -470,6 +462,7 @@ body {
     .header-img {
         height: 340px;
         width: 323px;
+        
     }
  
 
@@ -500,7 +493,6 @@ body {
 
     .sec-1-div-1 a {
         text-decoration: none;
-        font-family: Poppins;
         font-size: 14px;
         font-weight: 700;
 
@@ -512,6 +504,9 @@ body {
         column-gap: 87px;
         row-gap: 30px;
         margin-top: 20px;
+    }
+    .sec-1 .hidden-item{
+      display: none;
     }
         /* footer */
     .footer ul li {
@@ -537,7 +532,6 @@ body {
     }
 
     .footer h1 {
-        font-family: Poppins;
         font-size: 40px;
         font-weight: 600;
         color: rgba(185, 185, 185, 1);
@@ -562,7 +556,6 @@ body {
 
     .footer a {
         text-decoration: none;
-        font-family: Poppins;
         font-size: 16px;
         font-weight: 500;
         color: rgba(185, 185, 185, 1);
@@ -626,7 +619,6 @@ body {
     }
 
     .header-text h1 {
-        font-family: Poppins;
         font-size: 22px;
         font-weight: 700;
         line-height: 33px;
@@ -636,7 +628,6 @@ body {
     }
 
     .header-text p {
-        font-family: Poppins;
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
@@ -697,6 +688,22 @@ body {
         row-gap: 30px;
         margin-top: 20px;
     }
+    .sec-1 .hidden-item{
+      display: none;
+    }
+    .sec-1 .special-btn{
+      display: block;
+    }
+    .special-btn {
+        display: block;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 40px;
+
+    }
     
     .footer {
         width: 100%;
@@ -715,7 +722,6 @@ body {
     }
 
     .footer h1 {
-        font-family: Poppins;
         font-size: 40px;
         font-weight: 600;
         color: rgba(185, 185, 185, 1);
