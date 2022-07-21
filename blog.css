@@ -539,20 +539,23 @@ body {
 
     .footer ul {
         display: flex;
-        justify-content: center;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 600px;
+
     }
 
     .footer ul li {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         list-style: none;
-        padding-left: 0px;
+        /* padding-left: 0px; */
 
 
     }
 
     .footer a {
+        flex-wrap: wrap;
+        padding: 15px 35px;
         text-decoration: none;
         font-size: 16px;
         font-weight: 500;
